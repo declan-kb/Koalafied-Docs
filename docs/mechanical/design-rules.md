@@ -14,7 +14,7 @@ Every rule on this page comes back to three goals. When they conflict, they win 
 
 ## Design Process
 
-- **Block Model First** - Do this before detailed work on any sub-system. Block models are important for allocating space and rough weights to each mechanism. They also validate the geometry of moving subsytems (e.g. an intake retracting)
+- **Block Model First** - Do this before detailed work on any sub-system. Block models are important for allocating space and rough weights to each mechanism. They also validate the geometry of moving subsystems (e.g. an intake retracting)
 - **Place the Battery Early** - It is heavy, has a fixed size, affects the centre of gravity and needs to be easy to swap.
 
 ## Prototyping
@@ -47,7 +47,7 @@ Every rule on this page comes back to three goals. When they conflict, they win 
 
 ## 3D Printing
 
-See [3D Printing](./3d-printing) for our printers, print settings and rules for printed parts.
+See [3D Printing Design](./3d-printing) for our printers, print settings and rules for printed parts.
 
 ## Mechanisms
 
@@ -105,14 +105,7 @@ Both our 2026 intakes were full width (large acquisition zone) rolly-grabbers.
 
 ## Design Numbers
 
-| What | Rule |
-|------|------|
-| 10-32 clearance holes | 5mm (or #11 drill)|
-| 10-32 tap holes | 4.1mm (#20 drill) |
-| 5mm rivet holes | 5mm |
-| 1.125in bearing holes | 1.130 in CAD, or 1.125 then step-drill |
-| Internal corner radii (CNC) | Greater than 2mm (4mm end-mill) |
-| CNC sheet size | 550 × 1150mm maximum |
+Hole sizes, CNC limits and other numbers are in [Quick Reference](./quick-reference#design-numbers).
 
 ## Resources
 

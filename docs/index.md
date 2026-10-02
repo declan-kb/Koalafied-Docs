@@ -23,7 +23,7 @@ features:
     details: Setting up your computer, our C++ coding standard, and how the robot code is organised.
     link: /software/
   - title: Mechanical
-    details: Learning Onshape, our CAD standards and checklist, design rules, the parts and materials we build with, and how we make parts.
+    details: Learning Onshape, fundamentals like torque and power transmission, our design and CAD standards, and quick reference for parts and numbers.
     link: /mechanical/
 ---
 

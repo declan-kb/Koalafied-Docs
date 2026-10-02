@@ -2,7 +2,7 @@
 
 The standard parts and materials we design with, and where we get them from. For rules on when to use them, see [Design Rules](./design-rules).
 
-Before ordering, check our [stock list](https://docs.google.com/spreadsheets/d/1-WUpauPn0w8gaDgV8chQGcHm4MKQWR08GLBQOgj7PT4/edit?usp=drive_web&ouid=101850487222114186850). For shipping times from each vendor, see [Vendors](#vendors).
+Before ordering, check our [stock list](https://docs.google.com/spreadsheets/d/1-WUpauPn0w8gaDgV8chQGcHm4MKQWR08GLBQOgj7PT4/edit?usp=drive_web&ouid=101850487222114186850). For where to buy and shipping times, see [Vendors](./vendors).
 
 ## Swerve Modules
 
@@ -109,7 +109,7 @@ Buy gears and sprockets from REV or WCP, and chain from WCP. Check the [stock li
 
 - **Belts** - 5mm HTD preferred, typically 9mm wide. Buy from [PT Parts](https://ptparts.com.au) or [Core Electronics](https://core-electronics.com.au). Check the [stock list](https://docs.google.com/spreadsheets/d/1-WUpauPn0w8gaDgV8chQGcHm4MKQWR08GLBQOgj7PT4/edit?usp=drive_web&ouid=101850487222114186850) first.
 - **Pulleys** - We 3D print pulleys for most applications.
-- **Prototype belts** - We 3D print belts in TPU 98A for prototyping. See [3D Printing](./3d-printing).
+- **Prototype belts** - We 3D print belts in TPU 98A for prototyping. See [3D Printing Design](./3d-printing).
 
 <figure>
 <img src="./images/htd-belt.jpg" alt="5mm HTD timing belt" width="300">
@@ -144,7 +144,7 @@ We 3D print spacers, and also stock some standard spacer sizes.
 
 ## Bearings
 
-- **Flanged, hex bore** - 1/2in and 3/8in hex. The 1/2in hex bearings are 1.125in OD (see [Design Rules](./design-rules#design-numbers) for the hole size).
+- **Flanged, hex bore** - 1/2in and 3/8in hex. The 1/2in hex bearings are 1.125in OD (see [Quick Reference](./quick-reference#design-numbers) for the hole size).
 - **Flanged, round bore** - Mostly used with rounded hex shafts.
 - **Small non-flanged** - For tight spaces. See the Lintake for an example.
 
@@ -246,35 +246,4 @@ Custom sizes of any material are available on request.
 
 ### 3D Printing Filament
 
-See [3D Printing](./3d-printing#filament) for the filaments we use and where to buy them.
-
-## Vendors
-
-### FRC Vendors
-
-Shipping is cheapest from REV Global and AndyMark Sydney, followed by WCP. Everything from REV on this page is available from REV Global, so order from there rather than REV US.
-
-| Vendor | Ships from | Typical delivery | What they offer |
-|--------|------------|------------------|-----------------|
-| [Grapple](https://grapplerobotics.au) | Canberra | Under 1 week | Australian FRC supplier. Sensors (e.g. LaserCAN) and shafts |
-| [WARES](https://warobotics.education) | Perth | Under 1 week | A limited range, including shafts and sensors |
-| [REV](https://revrobotics.global) | China (REV Global), or Texas ([REV US](https://www.revrobotics.com)) | Under 1 week from Global, 2-3 weeks from the US | MAXPlanetary gearboxes, gears, sprockets, shafts, nut strips, extrusion and electronics |
-| [AndyMark](https://www.andymark.com) | Sydney, or the US | Under 1 week from Sydney, 2-3 weeks from the US | Sport gearboxes, SDS swerve modules and a wide range of FRC parts |
-| [WCP](https://wcproducts.com) | California | 1-2 weeks | Kraken motors, gears, sprockets, chain, shafts, nut strips, tube plugs, extrusion and 10-32 inserts |
-| [Thrifty](https://www.thethriftybot.com) | Indiana | 1-2 weeks | Low-cost mechanism parts, shafts and 10-32 inserts |
-| [SDS](https://www.swervedrivespecialties.com) | US | Variable, often several weeks | Swerve modules and spares (tread, wheels, belts, gear ratios) |
-
-### General Vendors
-
-| Vendor | Typical delivery | What we get from them |
-|--------|------------------|-----------------------|
-| [Capral](https://www.capral.com.au) | Pick up | Aluminium sheet |
-| [Dotmar](https://www.dotmar.com.au) | Pick up | Polycarbonate sheet |
-| [Bunnings](https://www.bunnings.com.au) | Pick up | MDF, rivets and general hardware |
-| [Supercheap Auto](https://www.supercheapauto.com.au) | Pick up | Blue Loctite threadlocker |
-| [Amazon](https://www.amazon.com.au) | 2-3 days | eSun 3D printing filament and general items |
-| [Bolt and Nut](https://boltandnut.com.au) | About 1 week | Fasteners |
-| [PT Parts](https://ptparts.com.au) | About 1 week | Belts |
-| [Core Electronics](https://core-electronics.com.au) | About 1 week | Belts |
-| [Bambu Lab](https://bambulab.com) | About 1 week | 3D printing filament |
-| [AliExpress](https://www.aliexpress.com) | Variable, often several weeks | Cheap metric fasteners, e.g. heat-set inserts and M3 bolts |
+See [3D Printing Design](./3d-printing#filament) for the filaments we use and where to buy them.

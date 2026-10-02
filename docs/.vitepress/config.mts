@@ -124,44 +124,44 @@ export default defineConfig({
       ],
       '/mechanical/': [
         {
-          text: 'Mechanical',
-          items: [{ text: 'Overview', link: '/mechanical/' }],
-        },
-        {
-          text: 'Onshape',
+          text: 'Start Here',
           items: [
+            { text: 'Overview', link: '/mechanical/' },
             { text: 'Onshape Setup', link: '/mechanical/onshape' },
-            { text: 'Onshape Tips & Tricks', link: '/mechanical/onshape-tips-and-tricks' },
-            { text: 'Feature Scripts', link: '/mechanical/feature-scripts' },
           ],
         },
         {
           text: 'Fundamentals',
           items: [
+            { text: 'Forces & Torque', link: '/mechanical/forces-and-torque' },
             { text: 'Power Transmission Basics', link: '/mechanical/power-transmission-basics' },
-            { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
             { text: 'Mechanisms', link: '/mechanical/mechanisms' },
+            { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
           ],
         },
         {
-          text: 'How We CAD',
-          items: [
-            { text: 'CAD Standards', link: '/mechanical/cad-standards' },
-            { text: 'CAD Checklist', link: '/mechanical/cad-checklist' },
-          ],
-        },
-        {
-          text: 'Designing the Robot',
+          text: 'Standards',
           items: [
             { text: 'Design Rules', link: '/mechanical/design-rules' },
+            { text: 'CAD Standards', link: '/mechanical/cad-standards' },
+            { text: 'CAD Checklist', link: '/mechanical/cad-checklist' },
+            { text: '3D Printing Design', link: '/mechanical/3d-printing' },
+          ],
+        },
+        {
+          text: 'Reference',
+          items: [
+            { text: 'Quick Reference', link: '/mechanical/quick-reference' },
             { text: 'Parts & Materials', link: '/mechanical/parts-and-materials' },
-            { text: '3D Printing', link: '/mechanical/3d-printing' },
+            { text: 'Vendors', link: '/mechanical/vendors' },
             { text: 'External Resources', link: '/mechanical/external-resources' },
           ],
         },
         {
-          text: 'Manufacturing',
+          text: 'How-To',
           items: [
+            { text: 'Onshape Tips & Tricks', link: '/mechanical/onshape-tips-and-tricks' },
+            { text: 'Feature Scripts', link: '/mechanical/feature-scripts' },
             { text: 'Fusion 360 CAM', link: '/mechanical/fusion-360-cam' },
             { text: '3D Printing & Slicing', link: '/mechanical/3d-printing-slicing' },
           ],

@@ -1,6 +1,6 @@
 # External Resources
 
-Most problems we run into have already been solved by another FRC team. Check these before designing something from scratch. For vendors, see [Parts & Materials](./parts-and-materials#vendors).
+Most problems we run into have already been solved by another FRC team. Check these before designing something from scratch. For vendors, see [Vendors](./vendors).
 
 ## Community
 

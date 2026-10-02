@@ -1,4 +1,4 @@
-# 3D Printing
+# 3D Printing Design
 
 How we design parts for 3D printing: our printers, settings, filament and the hardware that goes with printed parts.
 
@@ -35,7 +35,7 @@ For how to export, slice and print a part, see the [3D Printing & Slicing Guide]
 
 ### Holes and Fits
 
-- **Holes Print Undersize** - You may need to print a test to determine the appropraite size for the hole. Alternatively consider drilling the hole to size after printed (need to consider an appropriate number of perimeters)
+- **Holes Print Undersize** - You may need to print a test to determine the appropriate size for the hole. Alternatively consider drilling the hole to size after printed (need to consider an appropriate number of perimeters)
 - **Inserts for Reusable Threads** - Use threaded inserts (see [Hardware for Printed Parts](#hardware-for-printed-parts)) or captive nuts wherever possible (rather than plastic threads)
     - Use nyloc nuts with caution– they will quickly round out the print if not assembled with caution.
 

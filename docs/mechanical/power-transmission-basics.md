@@ -2,7 +2,7 @@
 
 Power transmission is how we get power from a motor to the thing it moves: a wheel, a roller, an arm or an elevator. Nearly every mechanism on the robot uses gears, belts or chain, so this is worth understanding before you design one.
 
-For our rules on which to use, see [Power Transmission](./design-rules#power-transmission) in Design Rules. For the parts we buy, see [Parts & Materials](./parts-and-materials).
+This builds on [Forces & Torque](./forces-and-torque). For our rules on which to use, see [Power Transmission](./design-rules#power-transmission) in Design Rules. For the parts we buy, see [Parts & Materials](./parts-and-materials).
 
 ## Why We Need It
 

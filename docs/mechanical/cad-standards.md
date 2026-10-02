@@ -19,8 +19,7 @@ The structure of the Onshape folders we store our CAD documents in should be as 
 
 ## Document Structure
 
-We structure our robots in multiple documents, allocating each subsystem a single document. 
-We can have a robot design either in a single document, or use multiple documents.
+We structure our robots in multiple documents, allocating each subsystem a single document.
 
 Each season's folder (see [Folder Structure](#folder-structure)) contains:
 - One top-level robot document containing a master-part studio and a final assembly, named `[year] Master`, e.g. `2026 Master`
@@ -33,7 +32,7 @@ A second robot gets its own folder within the season folder, with the same struc
 Parts from other documents can only be inserted from a version, so create a version when a mechanism is ready to be pulled in, and update references in the top level document when it changes. 
 
 Each mechanism document should contain
-- Part studios for each subsytem
+- Part studios for each subsystem
 - Assemblies for each subsystem
 - An overall assembly for the mechanism
 - A test assembly (an assembly which pulls other mechanisms in to test for interferences- without needing to update the version every time)
