@@ -1,7 +1,5 @@
-# Feature Scripts
-
-Featurescripts can save you a lot of time. They can also slow down the document if not used carefully.
-
+# Featurescripts
+Guide on which featurescripts we reccomend and how to add them. 
 ## How to Add One
 
 1. Open the featurescript's document from the table below.

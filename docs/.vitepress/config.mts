@@ -124,28 +124,17 @@ export default defineConfig({
       ],
       '/mechanical/': [
         {
-          text: 'Start Here',
+          text: 'Mechanical',
           items: [
             { text: 'Overview', link: '/mechanical/' },
+          ],
+        },
+        {
+          text: 'Guides',
+          items: [
+            { text: 'Fusion 360 CAM', link: '/mechanical/fusion-360-cam' },
             { text: 'Onshape Setup', link: '/mechanical/onshape' },
-          ],
-        },
-        {
-          text: 'Fundamentals',
-          items: [
-            { text: 'Forces & Torque', link: '/mechanical/forces-and-torque' },
-            { text: 'Power Transmission Basics', link: '/mechanical/power-transmission-basics' },
-            { text: 'Mechanisms', link: '/mechanical/mechanisms' },
-            { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
-          ],
-        },
-        {
-          text: 'Standards',
-          items: [
-            { text: 'Design Rules', link: '/mechanical/design-rules' },
-            { text: 'CAD Standards', link: '/mechanical/cad-standards' },
-            { text: 'CAD Checklist', link: '/mechanical/cad-checklist' },
-            { text: '3D Printing Design', link: '/mechanical/3d-printing' },
+            { text: 'Featurescripts', link: '/mechanical/feature-scripts' },
           ],
         },
         {
@@ -158,13 +147,20 @@ export default defineConfig({
           ],
         },
         {
-          text: 'How-To',
+          text: 'Standards',
           items: [
-            { text: 'Onshape Tips & Tricks', link: '/mechanical/onshape-tips-and-tricks' },
-            { text: 'Feature Scripts', link: '/mechanical/feature-scripts' },
-            { text: 'Fusion 360 CAM', link: '/mechanical/fusion-360-cam' },
-            { text: '3D Printing & Slicing', link: '/mechanical/3d-printing-slicing' },
+            { text: 'Design Rules', link: '/mechanical/design-rules' },
+            { text: 'Onshape Document Setup', link: '/mechanical/onshape-document-setup' },
+            { text: 'Onshape Modelling', link: '/mechanical/onshape-modelling' },
           ],
+        },
+        {
+          text: 'Learning',
+          items: [
+            { text: 'Power Transmission Basics', link: '/mechanical/power-transmission-basics' },
+            { text: 'Mechanisms', link: '/mechanical/mechanisms' },
+            { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
+          ],     
         },
       ],
       '/contributing/': [

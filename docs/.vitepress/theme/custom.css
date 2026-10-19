@@ -104,3 +104,104 @@
   top: 0.4em;
   margin: 0;
 }
+
+/* <div class="ratio-chain">: a row of boxes joined by arrows, e.g.
+   motor -> 5:1 -> 4:1 -> output. Use rc-node for boxes, rc-step for
+   the label on each arrow, and add rc-out to highlight the last box. */
+.vp-doc .ratio-chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 1.2em 0;
+}
+.vp-doc .rc-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--vp-c-text-2);
+}
+.vp-doc .rc-node b {
+  font-family: var(--vp-font-family-mono);
+  font-size: 16px;
+  color: var(--vp-c-text-1);
+}
+.vp-doc .rc-node small { color: var(--vp-c-brand-1); font-weight: 600; }
+.vp-doc .rc-node.rc-out { border-color: var(--vp-c-brand-1); background: var(--vp-c-brand-soft); }
+.vp-doc .rc-step {
+  font: 600 13px var(--vp-font-family-mono);
+  color: var(--vp-c-brand-1);
+}
+.vp-doc .rc-step::after { content: ' →'; }
+
+/* Shared by the gear demos (GearRatio.vue, GearDirection.vue) */
+.gear-ratio {
+  margin: 1.5em 0;
+  padding: 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+.gear-ratio svg { display: block; width: 100%; height: auto; margin: 8px 0; }
+.gr-top { display: flex; justify-content: space-between; gap: 8px; }
+.gr-tabs { display: inline-flex; border: 1px solid var(--vp-c-divider); border-radius: 8px; overflow: hidden; }
+.gr-tabs button, .gr-play {
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
+.gr-tabs button.on { background: var(--vp-c-brand-1); color: var(--vp-c-bg); }
+.gr-play { border: 1px solid var(--vp-c-divider); border-radius: 8px; }
+.gr-play:hover, .gr-tabs button:not(.on):hover { color: var(--vp-c-brand-1); }
+.gr-gear { stroke-width: 1.5; stroke-linejoin: round; }
+.gr-gear.in { fill: var(--vp-c-brand-soft); stroke: var(--vp-c-brand-1); }
+.gr-gear.out { fill: var(--vp-c-default-soft); stroke: var(--vp-c-text-2); }
+.gr-hex { fill: var(--vp-c-bg-soft); stroke: var(--vp-c-text-3); }
+.gr-dot { fill: var(--vp-c-brand-1); }
+.gr-belt { fill: none; stroke: var(--vp-c-text-1); stroke-width: 4; stroke-dasharray: 3 3; opacity: 0.7; }
+.gr-label { font: 500 13px var(--vp-font-family-mono); fill: var(--vp-c-text-2); text-anchor: middle; }
+.gr-sliders { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+.gr-sliders label { font-size: 14px; color: var(--vp-c-text-2); }
+.gr-sliders b { float: right; font-family: var(--vp-font-family-mono); color: var(--vp-c-text-1); }
+.gr-sliders input { width: 100%; accent-color: var(--vp-c-brand-1); }
+
+/* Shared by the dimension diagrams (GearDimensions.vue, BeltDimensions.vue) */
+.gdim .gr-gear { stroke-width: 1.2; opacity: 0.55; }
+.gdim .circ { fill: none; stroke: var(--vp-c-brand-1); stroke-width: 2; stroke-dasharray: 5 4; }
+.gdim .centre { fill: none; stroke: var(--vp-c-text-3); stroke-width: 1; stroke-dasharray: 14 3 2 3; }
+.gdim .point { fill: var(--vp-c-brand-1); }
+.gdim .ext { fill: none; stroke: var(--vp-c-text-3); stroke-width: 1; }
+.gdim .dim { fill: none; stroke: var(--vp-c-brand-1); stroke-width: 1.5; }
+.gdim .dim-head { fill: var(--vp-c-brand-1); }
+.gdim .lbl { font: 600 16px var(--vp-font-family-mono); fill: var(--vp-c-text-1); text-anchor: middle; }
+.gdim .tag { font: 500 14px var(--vp-font-family-mono); fill: var(--vp-c-text-2); text-anchor: middle; }
+
+.gdim .calc { border-top: 1px solid var(--vp-c-divider); padding-top: 12px; }
+.gdim .general { font: 600 17px var(--vp-font-family-mono); display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.gdim .general + .general { margin-top: 6px; }
+.gdim .worked { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.gdim .card {
+  flex: 1 1 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+  font-family: var(--vp-font-family-mono);
+}
+.gdim .card .who { flex-basis: 100%; font: 500 13px var(--vp-font-family-base); color: var(--vp-c-text-2); }
+.gdim .card .res { white-space: nowrap; }
+.gdim .card b { font-size: 18px; color: var(--vp-c-brand-1); }
+.gdim .frac { display: inline-flex; flex-direction: column; align-items: center; line-height: 1.3; font-size: 15px; }
+.gdim .frac span:first-child { border-bottom: 1.5px solid currentColor; padding: 0 4px; }
+.gdim .calc p { margin: 10px 0 0; font-size: 14px; color: var(--vp-c-text-2); }

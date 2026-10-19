@@ -46,7 +46,7 @@ An arm has a mass of 4 kg, with its centre of mass 0.5 m from the pivot. Horizon
 
 $$T = (4 \times 9.81) \times 0.5 = 19.6 \text{ Nm}$$
 
-A Kraken X60 has a stall torque of 7.09 Nm, so it needs a reduction of at least 19.6 ÷ 7.09 ≈ 2.8:1 just to hold the arm still at stall. In practice you need much more than that to move the arm quickly without overheating the motor. See [Choosing a Ratio](./power-transmission-basics#choosing-a-ratio).
+A Kraken X60 has a stall torque of 7.09 Nm, so it needs a reduction of at least 19.6 ÷ 7.09 ≈ 2.8:1 just to hold the arm still at stall. In practice you need much more than that to move the arm quickly without overheating the motor. See [Putting It Together](./power-transmission-basics#putting-it-together).
 :::
 
 ## Climbing with a Spool

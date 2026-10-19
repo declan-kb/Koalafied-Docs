@@ -43,7 +43,7 @@ See [Design Rules](./design-rules).
 - [ ] Shafts on the outside of the robot are appropriately protected (e.g. the bash bar on the 2025 intake)
 
 ## Manufacturing
-See [Design Numbers](./quick-reference#design-numbers).
+See [Quick Reference](./quick-reference).
 - [ ] CNC internal corner radii are greater than 2mm, and parts fit on a 550 × 1150mm sheet
-- [ ] Hole sizes follow the Design Numbers (e.g. 10-32 clearance = 5mm, 1.125in bearing = 1.13in)
+- [ ] Hole sizes follow the Quick Reference (e.g. 10-32 clearance = 5mm, 1.125in bearing = 1.13in)
 - [ ] Holes into extrusion are on the 0.5in grid

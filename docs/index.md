@@ -28,5 +28,5 @@ features:
 ---
 
 ::: warning Work in progress
-This wiki is still being written. Some pages may be incomplete or missing information. If you spot something wrong, put it in Slack or [fix it](/contributing/how-to-edit).
+This wiki is still being written. Some pages may be incomplete or missing information. If you spot something wrong, put it in Teams or [fix it](/contributing/how-to-edit).
 :::
