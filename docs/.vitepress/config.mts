@@ -135,6 +135,7 @@ export default defineConfig({
             { text: 'Fusion 360 CAM', link: '/mechanical/fusion-360-cam' },
             { text: 'Onshape Setup', link: '/mechanical/onshape' },
             { text: 'Featurescripts', link: '/mechanical/feature-scripts' },
+            { text: 'Drawing Templates', link: '/mechanical/drawing-template-guide' },
           ],
         },
         {

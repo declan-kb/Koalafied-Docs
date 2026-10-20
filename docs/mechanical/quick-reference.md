@@ -1,6 +1,6 @@
 # Quick Reference
 
-The numbers you'll look up most while designing. 
+The numbers you'll look up most while designing. Feel free to add things you think will be useful, or you find yourself looking up often. 
 
 ## Bolts
 
@@ -24,6 +24,10 @@ The numbers you'll look up most while designing.
 | MAXPlanetary | 2in × 2.44in | 1.5in + 0.5in per stage| 4x 10-32 on 2in circle | [Drawing](/MP-drawing.pdf) |
 
 ## Power Transmission
+Most of these values can be calculated in Onshape using the Origin Cube featurescript. For example:
+- #SprocketPD_25(16) returns the pitch diameter for a 16T #25 chain
+- #ChainCTC_25(100,16,24) returns the C-C distance for a 16T to 24T #25 chain sprocket transmission with a 100 link chain.
+
 
 | Item | Value |
 |------|-------|
@@ -36,10 +40,4 @@ The numbers you'll look up most while designing.
 
 ## Manufacturing
 
-| Item | Spec |
-|------|------|
-| CNC max sheet | 550 × 1150mm |
-| CNC end mill | 4mm (smaller sizes available: consult mentor) |
-| CNC internal corners | Radius greater than 2mm |
-
-Feeds, speeds and tabs are in [Fusion 360 CAM](./fusion-360-cam#quick-reference).
+Feeds, speeds and other details are in [Fusion 360 CAM](./fusion-360-cam#quick-reference).
