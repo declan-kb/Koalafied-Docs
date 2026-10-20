@@ -118,6 +118,23 @@ On its own line:
 
 $$R = \frac{\rho L}{A}$$
 
+## Tooltips
+
+Wrap text in double square brackets to give it a tooltip (hover, or tap on a phone).
+
+- **Unit conversions:** an inch or mm value shows the other unit automatically.
+- **Custom tooltips:** put a comma after the text, and everything after the first comma becomes the tooltip.
+
+```md
+A 10-32 socket head is [[0.312in]] across. Use a [[5/32in]] hex key.
+
+Print it in [[TPU 95A, existing stock only]].
+```
+
+A 10-32 socket head is [[0.312in]] across. Use a [[5/32in]] hex key.
+
+Print it in [[TPU 95A, existing stock only]].
+
 ## Callouts
 
 Use these to make important information stand out.

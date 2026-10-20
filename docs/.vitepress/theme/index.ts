@@ -6,6 +6,7 @@ import GearDimensions from './GearDimensions.vue'
 import BeltDimensions from './BeltDimensions.vue'
 import Practice from './Practice.vue'
 import Quiz from './Quiz.vue'
+import CenterDistance from './CenterDistance.vue'
 import './custom.css'
 
 export default {
@@ -17,5 +18,6 @@ export default {
     app.component('BeltDimensions', BeltDimensions)
     app.component('Practice', Practice)
     app.component('Quiz', Quiz)
+    app.component('CenterDistance', CenterDistance)
   },
 } satisfies Theme

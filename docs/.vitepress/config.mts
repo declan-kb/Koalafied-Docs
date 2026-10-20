@@ -1,5 +1,25 @@
 import { defineConfig } from 'vitepress'
 
+// "TPU 95A, existing stock only" -> "TPU 95A" with the text after the first comma as its tooltip.
+// "0.312in" -> span showing "7.92 mm" on hover/tap. Handles fractions like "5/32in" and "1 1/2in".
+// Anything else returns undefined, so a typo stays visible as [[...]] on the page.
+// `value` arrives already HTML-escaped, so it's safe to put straight into the attribute.
+function tooltip(value: string) {
+  const comma = value.indexOf(',')
+  if (comma > 0) {
+    return `<span class="unit" tabindex="0" data-conv="${value.slice(comma + 1).trim()}">${value.slice(0, comma).trim()}</span>`
+  }
+  const match = value.trim().match(/^(\d[\d./ ]*?)\s*(in|mm)$/)
+  if (!match) return
+  const n = match[1].trim().split(/\s+/).reduce((sum, part) => {
+    const [top, bottom = '1'] = part.split('/')
+    return sum + Number(top) / Number(bottom)
+  }, 0)
+  if (!Number.isFinite(n)) return
+  const converted = match[2] === 'in' ? `${+(n * 25.4).toFixed(2)} mm` : `${+(n / 25.4).toFixed(3)} in`
+  return `<span class="unit" tabindex="0" data-conv="${converted}">${value.trim()}</span>`
+}
+
 // Site settings. The part you will edit most is `sidebar` below:
 // to add a page, copy one line in the right section and change the text and link.
 // Full reference: https://vitepress.dev/reference/site-config
@@ -37,6 +57,19 @@ export default defineConfig({
           const box = new state.Token('html_inline', '', 0)
           box.content = `<input type="checkbox"${match[1] === ' ' ? '' : ' checked'}> `
           token.children!.unshift(box)
+        }
+      })
+
+      // Turns [[0.312in]] / [[60mm]] into an in/mm conversion tooltip, and [[text, tooltip]] into a custom one
+      md.core.ruler.after('inline', 'unit-tooltips', (state) => {
+        for (const token of state.tokens) {
+          if (token.type !== 'inline') continue
+          token.children = token.children!.map((child) => {
+            if (child.type !== 'text' || !child.content.includes('[[')) return child
+            const html = new state.Token('html_inline', '', 0)
+            html.content = md.utils.escapeHtml(child.content).replace(/\[\[([^\]]+)\]\]/g, (m, v) => tooltip(v) ?? m)
+            return html
+          })
         }
       })
     },

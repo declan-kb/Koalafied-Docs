@@ -13,10 +13,9 @@ Custom sizes of any material are available on request.
 | Aluminium sheet (5052) | 2.5mm, 5mm | Capral |
 | Polycarbonate sheet | 3mm, 4.5mm, 6mm, 9.5mm | Dotmar |
 | MDF | 3mm, 6mm, 12mm, 18mm | Bunnings |
-| Aluminium extrusion (6061), 2x1 and 1x1 | 0.125in, 0.1in\*, 0.05in\* wall | REV, WCP |
-| 3D printing filament | PETG, PLA, TPU 95A, TPU 98A\* | BambuLab, Esun (Amazon) |
+| Aluminium extrusion (6061), 2x1 and 1x1 | 0.125in, [[0.1in, Existing stock only]], [[0.05in, Existing stock only]] wall | REV, WCP |
+| 3D printing filament | PETG, PLA, TPU 95A, [[TPU 98A, Existing stock only]] | BambuLab, Esun (Amazon) |
 
-\* Existing stock only.
 
 <figure>
 <img src="./images/2x1-extrusion.jpg" alt="2x1 aluminium extrusion" width="250">
