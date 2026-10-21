@@ -44,6 +44,16 @@ Notes:
 | VersaPlanetary | 1.75in × 1.66in | 1.36in + 0.5in per stage| 2x 10-32 on 2in circle | [Drawing](/VP-drawing.PDF), [User guide](/VP-user-guide.pdf), [Load guide](/VP-load-guide.pdf) |
 | MAXPlanetary | 2in × 2.44in | 1.5in + 0.5in per stage| 4x 10-32 on 2in circle | [Drawing](/MP-drawing.pdf) |
 
+## Swerve Modules
+
+| Module | Size inside frame perimeter | Docs |
+|--------|-----------------------------|------|
+| SDS MK4i | 6.48in x 6.48in| [Drawing](/MK4i-drawing.pdf), [Assembly guide](/MK4i-assembly-guide.pdf) |
+| SDS MK4c | 4in x 4in | [Drawing](/MK4c-drawing.pdf), [Assembly guide](/MK4c-assembly-guide.pdf) |
+| SDS MK5n | 6.50in x 4in | [Drawing](/MK5n-drawing.pdf), [Assembly guide](/MK5n-assembly-guide.pdf) |
+
+- Ground clearance for all 3 swerve modules is 1.75in from the ground to the bottom of the frame extrusion.
+
 ## Power Transmission
 Most of these values can be calculated in Onshape using the Origin Cube featurescript. For example:
 - #SprocketPD_25(16) returns the pitch diameter for a 16T #25 chain
