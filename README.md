@@ -1,6 +1,6 @@
 # Koalafied Docs
 
-Experimental docs / wiki page built with [VitePress](https://vitepress.dev).
+Experimental docs / wiki page built with [VitePress](https://vitepress.dev) that Declan is messing around with. 
 
 **Live site:** https://declan-kb.github.io/Koalafied-Wiki/
 
