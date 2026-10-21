@@ -2,7 +2,7 @@
 
 Experimental docs / wiki page built with [VitePress](https://vitepress.dev) that Declan is messing around with. 
 
-**Live site:** https://declan-kb.github.io/Koalafied-Wiki/
+**Live site:** https://declan-kb.github.io/Koalafied-Docs/
 
 It is designed to contain evergreen documentation, guides, reference material (i.e. things that aren't constantly being edited)
 
