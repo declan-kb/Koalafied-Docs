@@ -28,9 +28,9 @@ export default defineConfig({
   description: 'Team Koalafied (FRC) knowledge base: electrical, software, mechanical and manufacturing.',
   lang: 'en-AU',
 
-  // The site lives at https://declan-kb.github.io/Koalafied-Wiki/
+  // The site lives at https://declan-kb.github.io/Koalafied-Docs/
   // If we ever move to a custom domain, change this to '/'.
-  base: '/Koalafied-Wiki/',
+  base: '/Koalafied-Docs/',
 
   cleanUrls: true,   // /electrical/basic-soldering instead of /electrical/basic-soldering.html
   lastUpdated: true, // shows "Last updated" at the bottom of each page (from git history)

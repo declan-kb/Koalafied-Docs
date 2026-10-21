@@ -1,3 +1,3 @@
 # Electrical
 
-Reference documentation in addition to the documentation for the electrical skills tree. 
+Reference documentation and the documentation for the electrical skills tree. 
