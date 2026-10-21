@@ -1,6 +1,6 @@
 # Wire Gauge Guide
 
-This document is intended to record guidelines and checklists that we come up with for doing robot wiring.
+This document records the different wire gauges we use across the robot. 
 
 ## Wire Gauges
 
@@ -8,14 +8,14 @@ The minimum wire gauges for different parts of the robot are specified in the ga
 
 | Application | Gauge |
 |:------------|:------|
-| Battery to PDP | 6 AWG (7 SWG or 16 mm²) |
-| Size 31 – 40A breaker protected circuit | 12 AWG (13 SWG or 4 mm²) |
-| 21 – 30A breaker protected circuit | 14 AWG (16 SWG or 2.5 mm²) |
-| 6 – 20A breaker protected circuit<br>11-15A fuse protected circuit<br>Minimum Wire Size Between the PDP dedicated terminals and the VRM/RPM or PCM/PH Compressor outputs from the PCM/PH | 18 AWG (19 SWG or 1 mm²) |
-| Between the PDP/PDH and the roboRIO<br>Between the PDH and VRM/RPM<br>≤5A breaker protected circuit<br>≤10A fuse protected circuit | 22 AWG (22 SWG or 0.5 mm²) |
-| VRM 2A circuits | 24 AWG (24 SWG or .25 mm²) |
-| roboRIO PWM port outputs | 26 AWG (27 SWG or 0.14 mm²) |
-| SIGNAL LEVEL circuits (i.e. circuits which draw ≤1A continuous and have a source incapable of delivering >1A, including but not limited to roboRIO non-PWM outputs, CAN signals, PCM/PH Solenoid outputs, VRM 500mA outputs, RPM outputs, and Arduino outputs) | 28 AWG (29 SWG or .08 mm²) |
+| Battery to PDP | 6 AWG  |
+| Size 31 – 40A breaker protected circuit | 12 AWG  |
+| 21 – 30A breaker protected circuit | 14 AWG  |
+| 6 – 20A breaker protected circuit<br>11-15A fuse protected circuit<br>Minimum Wire Size Between the PDP dedicated terminals and the VRM/RPM or PCM/PH Compressor outputs from the PCM/PH | 18 AWG |
+| Between the PDP/PDH and the roboRIO<br>Between the PDH and VRM/RPM<br>≤5A breaker protected circuit<br>≤10A fuse protected circuit | 22 AWG |
+| VRM 2A circuits | 24 AWG |
+| roboRIO PWM port outputs | 26 AWG |
+| SIGNAL LEVEL circuits (i.e. circuits which draw ≤1A continuous and are incapable of delivering >1A: e.g. roboRIO non-PWM outputs, CAN signals, VRM 500mA outputs) | 28 AWG  |
 
 ## Wire Gauges We Use
 

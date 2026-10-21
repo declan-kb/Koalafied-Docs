@@ -24,7 +24,7 @@ function tooltip(value: string) {
 // to add a page, copy one line in the right section and change the text and link.
 // Full reference: https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Koalafied Wiki',
+  title: 'Koalafied Docs',
   description: 'Team Koalafied (FRC) knowledge base: electrical, software, mechanical and manufacturing.',
   lang: 'en-AU',
 
@@ -77,7 +77,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Koalafied Wiki',
+    siteTitle: 'Koalafied Docs',
 
     search: { provider: 'local' },
 
@@ -97,9 +97,9 @@ export default defineConfig({
     // Links across the top of every page
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Mechanical', link: '/mechanical/' },
       { text: 'Electrical', link: '/electrical/' },
       { text: 'Software', link: '/software/' },
-      { text: 'Mechanical', link: '/mechanical/' },
       { text: 'How to edit', link: '/contributing/how-to-edit' },
     ],
 
@@ -115,12 +115,11 @@ export default defineConfig({
           text: 'Reference',
           items: [
             { text: 'Control System Diagram', link: '/electrical/control-system-diagram' },
-            { text: 'Understanding DC Motors', link: '/electrical/understanding-dc-motors' },
             { text: 'Wire Gauge Guide', link: '/electrical/wire-gauge-guide' },
           ],
         },
         {
-          text: 'Skills Tree',
+          text: 'Learning',
           items: [
             { text: 'Skills Tree Overview', link: '/electrical/skills-tree' },
             { text: 'Basic Electrical Knowledge', link: '/electrical/basic-electrical-knowledge' },
@@ -138,6 +137,7 @@ export default defineConfig({
             { text: 'Belly/Brainpan Layout', link: '/electrical/belly-brainpan-layout' },
             { text: 'Wire Gauge Selection', link: '/electrical/wire-gauge-selection' },
             { text: 'Mechanism Wiring Layout', link: '/electrical/mechanism-wiring-layout' },
+            { text: 'Understanding DC Motors', link: '/electrical/understanding-dc-motors' },
           ],
         },
       ],

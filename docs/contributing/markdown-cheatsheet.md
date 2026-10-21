@@ -52,13 +52,13 @@ This is **bold** and this is *italic*.
 
 ```md
 [WPILib docs](https://docs.wpilib.org)
-[Another wiki page](../electrical/basic-soldering)
+[Another page](../electrical/basic-soldering)
 ```
 
 [WPILib docs](https://docs.wpilib.org)
-[Another wiki page](../electrical/basic-soldering)
+[Another page](../electrical/basic-soldering)
 
-For links to other wiki pages, use the file path without `.md`. `../` means "go up one folder".
+For links to other pages, use the file path without `.md`. `../` means "go up one folder".
 
 ## Images
 
@@ -84,7 +84,9 @@ Put image files in the section's `images` folder. See [How to edit](./how-to-edi
 | Power | 12AWG |
 | CAN   | 22AWG |
 
-The columns don't have to line up in the text, but it's easier to read if they do.
+The columns don't have to line up in the markdown file. The important part is that each row is a new line, and columns are divided by `|`.
+
+You can use `<br>` within a table for multiple lines within a single row. 
 
 ## Code
 

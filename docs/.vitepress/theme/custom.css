@@ -85,6 +85,13 @@
   min-width: 100%;
 }
 
+/* <div class="figure-row screens">: tall screenshots side by side */
+.vp-doc .figure-row.screens img {
+  width: 240px;
+  height: auto;
+  padding: 0;
+}
+
 /* Some diagrams are transparent PNGs with black lines: give every
    picture a white card in dark mode so they stay readable. */
 .dark .vp-doc img {
@@ -229,4 +236,33 @@
   font-size: 13px;
   white-space: nowrap;
   z-index: 10;
+}
+
+/* Work in progress banner (layout-top slot in index.ts). Fixed height,
+   one line, so the navbar can sit below it. */
+:root {
+  --vp-layout-top-height: 32px;
+}
+.wip-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--vp-z-index-layout-top);
+  height: var(--vp-layout-top-height);
+  line-height: var(--vp-layout-top-height);
+  padding: 0 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 13.5px;
+  color: var(--vp-c-warning-1);
+  /* soft tint over a solid background so content does not show through */
+  background: linear-gradient(var(--vp-c-warning-soft), var(--vp-c-warning-soft)), var(--vp-c-bg);
+}
+.wip-banner a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
 }

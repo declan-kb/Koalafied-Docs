@@ -1,6 +1,6 @@
-# Builds the wiki and publishes it to GitHub Pages on every push to main.
+# Builds the docs and publishes it to GitHub Pages on every push to main.
 # Based on https://vitepress.dev/guide/deploy#github-pages
-name: Deploy wiki
+name: Deploy docs
 
 on:
   push:

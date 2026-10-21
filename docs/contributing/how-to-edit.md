@@ -1,6 +1,6 @@
-# How to Edit This Wiki
+# How to Edit These Docs
 
-Anyone on the team can fix a mistake or add to this wiki, and you don't need to install anything. Every page is a plain text file written in [Markdown](./markdown-cheatsheet), stored on GitHub. When you save a change, the website rebuilds itself.
+Anyone on the team can fix a mistake or add to these docs, and you don't need to install anything. Every page is a plain text file written in [Markdown](./markdown-cheatsheet), stored on GitHub. When you save a change, the website rebuilds itself.
 
 ## 1. Get access
 
@@ -9,7 +9,7 @@ Anyone on the team can fix a mistake or add to this wiki, and you don't need to 
 
 ## 2. Edit a page
 
-1. Go to the page you want to change on the wiki.
+1. Go to the page you want to change on the docs site.
 2. Scroll to the bottom and click **Edit this page on GitHub**.
 3. GitHub opens the page's text file in an editor. Make your changes.
 4. Click the **Preview** tab to check how it will look.
@@ -63,10 +63,18 @@ To edit several files at once, open the repository on GitHub and press the <kbd>
 
 ## Running the site on your own computer (optional)
 
-This is only for people comfortable with a terminal. You need [Node.js](https://nodejs.org/) installed. Then:
+This is only for people comfortable with a terminal and who want to edit the docs in an application like VScode.
+
+The first time you need to install Node.js:
 
 ```bash
 npm install
+```
+
+Then each subsequent time just:
+
+```bash
+cd ~/[location of the github repo locally]
 npm run docs:dev
 ```
 

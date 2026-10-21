@@ -1,5 +1,6 @@
+import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import type { Theme } from 'vitepress'
+import { withBase, type Theme } from 'vitepress'
 import GearRatio from './GearRatio.vue'
 import GearDirection from './GearDirection.vue'
 import GearDimensions from './GearDimensions.vue'
@@ -11,6 +12,12 @@ import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  // Work in progress banner above the navbar on every page
+  Layout: () => h(DefaultTheme.Layout, null, {
+    'layout-top': () => h('div', { class: 'wip-banner' }, [
+      'These docs are an experimental work in progress.'
+    ]),
+  }),
   enhanceApp({ app }) {
     app.component('GearRatio', GearRatio)
     app.component('GearDirection', GearDirection)

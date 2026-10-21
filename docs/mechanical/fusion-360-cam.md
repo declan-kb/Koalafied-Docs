@@ -107,7 +107,10 @@ To create holes, the *Bore* function is used. This is good for creating holes la
 
    Pitch is the amount of depth the mill bit travels in one rotation of the bore.
 
-<img src="./images/fusion-cam-bore-heights.png" alt="Bore heights tab with bottom height offset -0.5 mm" width="240"> <img src="./images/fusion-cam-bore-passes.png" alt="Bore passes tab with Use Ramp Angle unticked and Pitch 0.8 mm" width="240">
+<div class="figure-row screens">
+<img src="./images/fusion-cam-bore-heights.png" alt="Bore heights tab with bottom height offset -0.5 mm" width="240">
+<img src="./images/fusion-cam-bore-passes.png" alt="Bore passes tab with Use Ramp Angle unticked and Pitch 0.8 mm" width="240">
+</div>
 
 ## 2D Contour
 
@@ -157,7 +160,10 @@ To create holes, the *Bore* function is used. This is good for creating holes la
 
 4. In the *linking* tab, set the *Ramping Angle* to **4 deg** and the *Ramp Clearance Height* to **1mm**
 
-<img src="./images/fusion-cam-adaptive-passes.png" alt="2D Adaptive passes tab with radial and axial stock to leave 0 mm" width="240"> <img src="./images/fusion-cam-adaptive-linking.png" alt="2D Adaptive linking tab with ramping angle 4 deg and ramp clearance height 1 mm" width="240">
+<div class="figure-row screens">
+<img src="./images/fusion-cam-adaptive-passes.png" alt="2D Adaptive passes tab with radial and axial stock to leave 0 mm" width="240">
+<img src="./images/fusion-cam-adaptive-linking.png" alt="2D Adaptive linking tab with ramping angle 4 deg and ramp clearance height 1 mm" width="240">
+</div>
 
 ## Final Checks
 

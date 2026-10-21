@@ -1,10 +1,15 @@
 # Featurescripts
-Guide on which featurescripts we reccomend and how to add them. 
+Guide on which featurescripts we recommend and how to add them. 
 ## How to Add One
 
 1. Open the featurescript's document from the table below.
-2. In your part studio, click **Custom features** in the toolbar.
-3. Find the featurescript's document and add it. It will then appear in your toolbar.
+2. Click **Custom features** at the top of the document.
+3. Click the feature to add it. It will then appear in the toolbar of your part studios.
+
+<figure>
+<img src="./images/adding-featurescripts.png" alt="Adding Origin Cube from the Custom features menu">
+<figcaption>Click Custom features, then the feature you want</figcaption>
+</figure>
 
 ## Recommended Feature Scripts
 
